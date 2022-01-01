@@ -3,7 +3,7 @@ import pickle
 import nltk
 import numpy as np
 from nltk.corpus import stopwords
-
+nltk.download('stopwords')
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
