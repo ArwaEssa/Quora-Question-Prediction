@@ -56,10 +56,7 @@ def clean_text (text ):
    text = text.split()
    text = [w for w in text if not w in stop]
    text = " ".join(text)
-    #lemmatize
-   stemmer = WordNetLemmatizer()
-   text = [stemmer.lemmatize(word) for word in text]
-   text = ''.join(text)
+   
    
    text = text.split()
    text = [w for w in  text if len(w) > 3]
