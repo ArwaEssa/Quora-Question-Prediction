@@ -1,6 +1,5 @@
 import streamlit as st
 from nltk.stem import WordNetLemmatizer
-nltk.download('wordnet')
 import pickle
 import nltk
 import numpy as np
